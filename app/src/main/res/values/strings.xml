@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project To-Do</string>
+
+    <string name="list_toDo">List To-Do</string>
+
+    <string name="input_activity">Filled Activity Here</string>
+    <string name="message">Deleted</string>
+
+    <string name="addButton">Add</string>
+    <string name="clearButton">Clear</string>
+    <string name="Menu">add_menu</string>
+    <string name="add_menu">Menu</string>
+    <string name="add_order">Order</string>
+
+</resources>
