@@ -7,6 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.findNavController
 import androidx.navigation.ui.NavigationUI
 import com.jirapat.todoapp.R
+import com.jirapat.todoapp.databinding.FragmentAddOrderBinding
 import com.jirapat.todoapp.databinding.FragmentToDoBinding
 
 class OrderFragment : Fragment() {
@@ -15,7 +16,7 @@ class OrderFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
 
-        val binding = DataBindingUtil.inflate<FragmentToDoBinding>(
+        val binding = DataBindingUtil.inflate<FragmentAddOrderBinding>(
             inflater,
             R.layout.fragment_add_order,
             container,
